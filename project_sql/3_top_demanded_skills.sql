@@ -26,4 +26,4 @@ LIMIT 5;
 /*
 Noticed the trend for ALL data analyst jobs were sql -> excel -> python -> tableau -> power bi
 When altering it to also only list remote jobs, the skills had the same trend
-/*
+*/
