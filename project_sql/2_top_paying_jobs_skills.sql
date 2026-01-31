@@ -33,7 +33,3 @@ INNER JOIN skills_dim AS skills ON skills.skill_id = job_skills.skill_id
 ORDER BY 
     salary_year_avg DESC;
 
-/*
-Place analysis here
-*/
-
