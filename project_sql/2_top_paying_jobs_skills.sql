@@ -16,7 +16,7 @@ WITH top_paying_jobs AS (
     LEFT JOIN company_dim AS company ON company.company_id = job_postings.company_id
     WHERE
         job_title_short = 'Data Analyst' AND
-        (job_location LIKE 'Anywhere' OR job_location LIKE '%CA%') AND
+        (job_location LIKE 'Anywhere' OR job_location LIKE '%CA') AND
         salary_year_avg IS NOT NULL
     ORDER BY
         salary_year_avg DESC

@@ -18,7 +18,7 @@ FROM job_postings_fact AS job_postings
 LEFT JOIN company_dim AS company ON company.company_id = job_postings.company_id
 WHERE
     job_title_short = 'Data Analyst' AND
-    (job_work_from_home = TRUE OR job_location LIKE '%CA%') AND
+    (job_work_from_home = TRUE OR job_location LIKE '%CA') AND
     salary_year_avg IS NOT NULL
 ORDER BY
     salary_year_avg DESC
