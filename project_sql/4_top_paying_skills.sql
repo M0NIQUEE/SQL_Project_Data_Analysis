@@ -8,7 +8,8 @@ QUESTION: What are the top-paying skills based on salary?
 
 SELECT
     skills,
-    ROUND(AVG(salary_year_avg), 0) AS avg_salary
+    ROUND(AVG(salary_year_avg), 0) AS avg_salary,
+    COUNT(job_skills.job_id) AS job_count
 FROM
     job_postings_fact AS job_postings
 INNER JOIN skills_job_dim AS job_skills ON job_skills.job_id = job_postings.job_id
@@ -19,6 +20,8 @@ WHERE
     AND job_work_from_home = TRUE
 GROUP BY
     skills
+HAVING
+    COUNT(job_skills.job_id) >= 5
 ORDER BY
     avg_salary DESC
 LIMIT 25;
