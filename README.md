@@ -18,7 +18,7 @@ Data hails from my [SQL Course](https://lukebarousse.com/sql). It's packed with 
 # Tools I Used
 To help create this project, these are the following tools I used:
 - **SQL**: Allowed me to query the database for analysis. Helped create insights and collected data that was needed to answer the questions.
-- **PosgreSQL**: Chosen database management system to handle the job postings data provided.
+- **PostgreSQL**: Chosen database management system to handle the job postings data provided.
 - **VS Code**: The IDE used to write and execute my queries in.
 - **Git & GitHub**: To share my SQL scripts and analysis, allowing organization and project tracking.
 
@@ -88,7 +88,7 @@ ORDER BY
 Breakdown for common skills in high paying jobs in 2023:
 - **SQL**: After analysis it seems SQL is often shown across multiple top-paying roles, showing the importance of this skill.
 - **Python**: Python comes next as a common skill being used in higher pay jobs to help analyze and automate work.
-- **Tableu**: Tableau highlights the importance of knowing a skill to be able to communicate insights with stakeholders using visualization.
+- **Tableau**: Tableau highlights the importance of knowing a skill to be able to communicate insights with stakeholders using visualization.
 
 ### 3. In-Demand Skills for Data Analyst Jobs
 This query was created to help find the top 5 skills that were frequently being listed under Data Analyst jobs.
