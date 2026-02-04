@@ -173,6 +173,7 @@ ORDER BY
 LIMIT 25;
 ```
 ![](images/skill_demand_vs_salary.png)
+*Visual Insight created by Co-Pilot*
 
 Breakdown of optimal skills for high salaries in 2023:
 - **Cloud and Data Skills**: Skills such as Go, Snowflake, and Azure appear near the top of the table for higher average salaries. These skills are usually used in large scaled data environments contributing to the reason why these skills offer high salaries, but aren't highly demanded for Data analyst jobs
