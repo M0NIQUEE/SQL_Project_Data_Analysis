@@ -172,22 +172,10 @@ ORDER BY
     demand_count DESC
 LIMIT 25;
 ```
-| Skill       | Demand Count | Average Salary ($) |
-|------------|-------------:|-------------------:|
-| Go         | 27 | 115,320 |
-| Confluence | 11 | 114,210 |
-| Hadoop     | 22 | 113,193 |
-| Snowflake  | 37 | 112,948 |
-| Azure      | 34 | 111,225 |
-| BigQuery   | 13 | 109,654 |
-| AWS        | 32 | 108,317 |
-| Java       | 17 | 106,906 |
-| SSIS       | 12 | 106,683 |
-| Jira       | 20 | 104,918 |
-*Top 10 skills that combines strong market demand with association to higher paying Data Analyst jobs*
+![](images/skill_demand_vs_salary.png)
 
 Breakdown of optimal skills for high salaries in 2023:
-- **Cloud and Data Skills**: Skills such as Go, Snowflake, and Azure appear near the top of the table for higher average salaries. These skills are usually used in large scaled data environments contributing to the reason why these skills offer high salaries.
+- **Cloud and Data Skills**: Skills such as Go, Snowflake, and Azure appear near the top of the table for higher average salaries. These skills are usually used in large scaled data environments contributing to the reason why these skills offer high salaries, but aren't highly demanded for Data analyst jobs
 - **Visualization**: Even though visualization is a key part in Data Analyst jobs, skills like powerBI with a demand count of 110 have an average salary of $97,431. A salary that isn't too high, but still a fundamental skill to have.
 
 # What I Learned
