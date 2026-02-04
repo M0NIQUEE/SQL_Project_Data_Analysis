@@ -110,14 +110,8 @@ ORDER BY
     demand_count DESC
 LIMIT 5;
 ```
-| Skill | Demand Count |
-|------|--------------|
-| SQL | 7291 |
-| Excel | 4611 |
-| Python | 4330 |
-| Tableau | 3745 |
-| Power BI | 2609 |
-*Table of the demand for the top 5 skills for Data Analyst job postings*
+![](images/top_demanding_skills_chart.png)
+*Visual Insights helped created  by Co-Pilot*
 
 Breakdown of the most in-demand skills for Data Anaylsts in 2023:
 - **SQL & Python**: Are the top two languages that are in-demand for Data Analyst jobs that are work from home.
@@ -144,19 +138,8 @@ ORDER BY
     avg_salary DESC
 LIMIT 25;
 ```
-| Skill       | Average Salary ($) | Job Count |
-|------------|-------------------:|----------:|
-| pandas     | 151,821            | 9 |
-| numpy      | 143,513            | 5 |
-| databricks | 141,907            | 10 |
-| atlassian  | 131,162            | 5 |
-| airflow    | 126,103            | 5 |
-| scala      | 124,903            | 5 |
-| crystal    | 120,100            | 5 |
-| go         | 115,320            | 27 |
-| confluence | 114,210            | 11 |
-| hadoop     | 113,193            | 22 |
-*Top 10 skills most commonly associated with higher average salaries*
+![](images/top_paying_skills.png)
+*Top 10 skills most commonly associated with higher average salaries created by Co-Pilot*
 
 Breakdown of the results of top paying skills for Data Analysts:
 
